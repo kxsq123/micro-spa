@@ -5,7 +5,7 @@ export default {
   output: {
     file: './lib/index.js',
     format: 'umd',
-    name: 'micro-spa',
+    name: 'microSpa',
     sourcemap: true
   },
   plugin: [
