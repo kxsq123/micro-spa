@@ -15,7 +15,7 @@ const CODE_BROKEN = 'CODE_BROKEN' // 执行代码出错
 // 当前应用是否被激活
 const isActive = (app) => app.status === MOUNTED
 // 当前应用是否将要被激活
-const shouldBeActive = (app) => app.lifecycle()
+const shouldBeActive = (app) => app.activeFn()
 
 export {
   NOT_LOADED,
